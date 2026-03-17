@@ -3,8 +3,8 @@ name: Mi Primer Robot
 on: [push]
 
 jobs:
- saludo:
- runs-on: ubuntu-lastest
- steps:
-  -name: Paso 1
-  run: echo "Hola mundo"
+  saludo:
+  runs-on: ubuntu-lastest
+  steps:
+    - name: Paso 1
+      run: echo "Hola mundo¡"
