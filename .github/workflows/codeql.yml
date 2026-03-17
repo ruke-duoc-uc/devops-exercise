@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   saludo:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Paso 1
-      run: echo "Hola mundo¡"
+    runs-on: ubuntu-latest
+    steps:
+      - name: saludando
+        run: echo "Hola mundo¡"
